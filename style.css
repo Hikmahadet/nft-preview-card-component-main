@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@400;700;900&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    justify-content: center;
+}
+.box{
+   text-align: center;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+
+
+}
+.picture{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+main{
+    text-align: center;
+    background-color: #164863;
+    width: 230px;
+    place-items: center;
+    border-radius: 20px;
+
+    
+}
+.group{
+   display: flex; 
+   justify-content: center;
+   margin-top: 20px;
+}
+h2{
+    color: white;
+}
+h2:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.seperate{
+    color: aqua;
+    cursor: pointer;
+}
+.cl{
+    color: red;
+}
+.seperate:hover{
+    color: white;
+}
+.container:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+
