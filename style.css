@@ -65,6 +65,13 @@ h2:hover{
 .container:hover{
     color: aqua;
     cursor: pointer;
+    opacity: 0.5;
+}
+.box{
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aqua;
 }
 
 
